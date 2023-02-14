@@ -115,7 +115,7 @@ namespace Part_1
             }
         }
 
-        private void firstLQuiz()
+        private void Quizzer()
         {
             firstQOptions.Clear();
             options.Clear();
@@ -129,11 +129,12 @@ namespace Part_1
                 options.Add(item);
             }
 
-                bottom = libraryTree.Root.Children[tLevel].Children[mLevel].Children[bLevel].Data;
-                middle = libraryTree.Root.Children[tLevel].Children[mLevel].Data;
-                top = libraryTree.Root.Children[tLevel].Data;
+            top = libraryTree.Root.Children[tLevel].Data;            
+            middle = libraryTree.Root.Children[tLevel].Children[mLevel].Data;
+            bottom = libraryTree.Root.Children[tLevel].Children[mLevel].Children[bLevel].Data;
 
-                string uQuestion = bottom.Substring(4);
+
+            string uQuestion = bottom.Substring(4);
 
                 fAnswer = top;
                 sAnswer = middle;
@@ -172,7 +173,7 @@ namespace Part_1
                 
         }
 
-        public void secondLQuiz()
+        public void nextLevelQuizzer()
         {
             //Sorting list
             bubbleSort(secondQOptions);
@@ -435,7 +436,7 @@ namespace Part_1
                 pAnswers.Add(libraryTree.Root.Children[i].Data);
             }
 
-            firstLQuiz();
+            Quizzer();
 
             //Tab switch
             Menu.SelectedIndex = 3;
@@ -534,7 +535,7 @@ namespace Part_1
                 {
                     if (sortedList[i] == userList[i])
                     {
-                        count++;
+                        count = count +1;
                     }
                 }
             }
@@ -741,7 +742,7 @@ namespace Part_1
                             qPoints++;
                             qRounds++;
                             lstbOut.Items.Clear();
-                            secondLQuiz();
+                            nextLevelQuizzer();
                         }
                         else
                         {
@@ -749,7 +750,7 @@ namespace Part_1
                             qRounds++;
                             lstbOut.Items.Clear();
                             txtData.Clear();
-                            firstLQuiz();
+                            Quizzer();
                         }
                     }
                     else if (lstbOut.Items[0] == secondQOptions[0])
@@ -762,7 +763,7 @@ namespace Part_1
                             txtData.Clear();
                             secondQOptions.Clear();
                             firstQOptions.Clear();
-                            firstLQuiz();
+                            Quizzer();
                         }
                         else
                         {
@@ -771,7 +772,7 @@ namespace Part_1
                             lstbOut.Items.Clear();
                             txtData.Clear();
                             secondQOptions.Clear();
-                            firstLQuiz();
+                            Quizzer();
                         }
                     }
                 }
