@@ -1,0 +1,99 @@
+	000 General Knowledge
+	000 Computer Knowledge and Systems
+	001 Knowledge
+	003 Systems
+	060 Organizations
+	063 Organizations in Germany
+	067 Organizations in Russia
+	090 Manuscripts and rare books
+	091 Manuscripts
+	095 Books notable for bindings 
+	100 Philosophy and Psychology
+	150 Psychology
+	156 Comparative psychology 
+	158 Applied Psychology 
+	170 Ethics
+	173 Ethics of family relationships 
+	177 Ethics of social relations 
+	180 Ancient and Eastern philosophy 
+	184 Platonic philosophy 
+	188 Stoic philosophy 
+	200 Religion
+	230 Christian theology
+	233 Jesus Christ and his family 
+	234 Salvation and grace 
+	250 Christian orders 
+	251 Preaching 
+        252 Text of sermons	270 History of Christianity 
+	274 Christianity in Europe 
+	276 Christianity in Africa 
+        300 Social Sciences 
+	310 Statistics 
+	314 General statistics in Europe
+	316 General statistics in Africa
+	320 Economics
+	332 Financial economics 
+	336 Public finance 
+	340 Law 
+	345 Criminal law 
+	346 Private law
+        400 Language
+	430 German
+	435 Grammar of standard German
+	438 Standard German usage
+	440 French
+	445 Grammar of standard French
+	448 Standard French usage
+	450 Italian
+	455 Grammar of standard Italian
+	458 Standard Italian usage
+        500 Science 
+	510 Mathematics 
+	512 Algebra
+	516 Geometry
+	520 Astronomy
+	525 Earth
+	526 Mathematical Geography 
+	530 Physics
+	535 Light
+	536 Heat
+        600 Technology
+	620 Engineering
+	624 Civil Engineering
+	627 Hydraulic Engineering 
+	630 Agriculture 
+	633 Plantation crops
+	635 Garden crops
+	660 Chemical Engineering
+	663 Beverage technology 
+	664 Food technology 
+        700 Arts and Recreation
+	720 Architecture 
+	726 Buildings for religious purposes 
+	727 Buildings for educational purposes 
+	730 Sculpture 
+	736 Carvings
+	738 Ceramic arts 
+	740 Decorative Arts 
+	748 Glass
+	749 Furniture 
+        800 Literature 
+	830 German and related literatures 
+	831 German Poetry 
+	833 German Fiction 
+	840 French and related literatures 
+	841 French Poetry 
+	843 French  Fiction 
+	850 Italian and related literatures 
+	851 Italian  Poetry 
+	853 Italian Fiction 
+        900 History and Geography 
+	940 History of Europe 
+	943 Germany 
+	945 Italy 
+	960 History of Africa 
+	965 Algeria 
+	968 South Africa 
+	980 History of South America 
+	981 Brazil
+	982 Argentina 
